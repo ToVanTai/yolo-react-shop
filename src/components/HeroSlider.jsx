@@ -1,7 +1,6 @@
-import React,{useState,useCallback} from "react";
+import React,{ useState, useEffect } from "react";
 import PropTypes from "prop-types";
-import {Link} from 'react-router-dom'
-import { useEffect } from "react/cjs/react.development";
+import {Link} from 'react-router-dom';
 import Button from "./Button";
 const HeroSlider = (props) => {
     const { data } = props;
